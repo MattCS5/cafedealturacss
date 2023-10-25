@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Outfit";
+    src: url('./Outfit/Outfit-VariableFont_wght.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#2B2A2B ;
+    padding: 12px 40px;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    gap: 7px;
+    font-size: 23.463px;
+    
+    
+   
+}
+.logoCafe{
+    width: 20px;
+    height: 25px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    padding: 16px;
+}
+.tiendaBotton{
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    gap: 8px;
+    
+}
+.numeroContacto{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.botonIniciaSesion{
+    color: white;
+    background-color:#515051;
+    padding: 12px 24px;
+    border-radius: 4px;
+    gap: 8px;
+}
+
+.seccionUno{
+    display: flex;
+    justify-content:  space-between;
+    gap: 24px;
+}
+.header{
+display: flex;
+justify-content: space-between;
+
+padding: 48px 40px;
+gap: 8px;
+align-items: center;
+
+}
+
+.informacionHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    /* width: 50%; */
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+}
+h3{
+    font-size: 18px;
+    font-weight: 600; 
+    color: #2A5B45;
+}
+
+.parrafoSeciones{
+    color: #111827;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.fotoHeader {
+    width: 50%;
+}
