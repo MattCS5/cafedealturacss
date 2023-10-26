@@ -13,6 +13,7 @@
 .container{
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
 .nav{
     display: flex;
@@ -40,6 +41,8 @@
 ul{
     display: flex;
     list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
     gap: 16px;
     padding: 16px;
 }
@@ -48,12 +51,13 @@ ul{
     color: white;
     padding: 8px;
     gap: 8px;
+    border: none;
     
 }
 .numeroContacto{
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 8px;
 }
 
 .botonIniciaSesion{
@@ -65,16 +69,13 @@ ul{
 }
 
 .seccionUno{
-    display: flex;
-    justify-content:  space-between;
     gap: 24px;
 }
 .header{
 display: flex;
 justify-content: space-between;
-
 padding: 48px 40px;
-gap: 8px;
+gap: 24px;
 align-items: center;
 
 }
@@ -83,8 +84,9 @@ align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 24px;
-    /* width: 50%; */
+    gap: 16px;
+    width: 588px;
+    height: 232px;
 }
 
 h1{
@@ -98,6 +100,27 @@ h3{
     color: #2A5B45;
 }
 
+.botonesHeader{
+    display: flex;
+    gap: 16px;
+}
+
+.botonDescubrirOrigenes{
+    padding: 12px 24px;
+    gap: 8px;
+    background-color: #1F1815;
+    border-radius: 4px;
+    color: white;
+}
+
+.botonComprarCafe{
+    padding: 12px 24px;
+    gap: 8px;
+    background-color: #2A5B45;
+    border-radius: 4px;
+    color: white;
+}
+
 .parrafoSeciones{
     color: #111827;
     font-weight: 400;
@@ -105,5 +128,66 @@ h3{
 }
 
 .fotoHeader {
-    width: 50%;
+    width: 588px;
+    height: 390px;
+    border-radius: 20px;
+}
+
+.imgPlantaCafe{
+    border-radius: 20px;
+}
+.contenedorSeccionDos{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 147px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px; 
+    background-image:url(imagenCafe.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+}
+.tituloUnoSeccionDos{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFF;
+    
+}
+.contenedoresSeccionDos{
+    display: flex;
+    width: 996px;
+    gap: 24px;
+
+}
+.contenedoresBlancosSeccionDos{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFF ;
+    border-radius: 8px;
+    border: 1px solid #F7F5F3;
+    width: 100%;
+}
+.logosSeccionDos{
+    border-radius: 20px;
+    background: #2A5B45;
+    padding: 12px;
+
+}
+.titulosSeccionDos{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    gap: 8px;
+
+}
+.textosSeccionDos{
+    color: #111827;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
 }
