@@ -255,13 +255,11 @@ button{
 
 .seccionCuatro{
     display: flex;
+    padding: 48px 386px;
     flex-direction: column;
-    gap: 24px;
-    background:  #2A5B45;
     align-items: center;
-    
-    
-   
+    gap: 24px;
+    background: var(--Green, #2A5B45);
 }
 
 .tituloSeccionCuatro{
@@ -269,29 +267,20 @@ button{
     color: #FFF;
 }
 .preguntasFrecuentes{
-    padding: 48px 386px;
     display: flex;
     flex-direction: column;
     gap:16px ;
-    align-items: center;
-  
-    
-}
-.preguntasConcretas{
-    display: flex;
-    flex-direction: column;
-    padding: 24px;
-    gap: 16px;
-    width: 668px;
-   
+    /* align-items: center; */   
 }
 
 .faq{
+    display: flex;
+    flex-direction: column;
+    width: 668px;
     padding: 24px;
-    background-color: #FFF;
+    gap: 16px;
     border-radius: 10px;
     background: #FFF;
-   
 }
 
 .preguntaPrecios{
@@ -299,7 +288,10 @@ button{
     border-radius: 10px;
     background: #FFF;
 }
-
+.pregunta{
+   display: flex;
+  justify-content: space-between;
+}
 .preguntaEnvio{
     background-color: #FFF;
     border-radius: 10px;
@@ -367,76 +359,106 @@ button{
 
 .seccionSeis{
     display: flex;
-    
+    background-color:#E3DED7;
     justify-content: center;
-    background:  #E3DED7;
-}
-
-.contacto{
-display: flex;
-gap: 24px;
-
-}
-
-.infoContacto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 588px;
-    gap: 32px; 
-}
-
-.textoSeccionSeis{
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--gray-500, #6B7280);
-}
-.textoContacto{
-    display: flex;
-    gap: 12px;
-    color: var(--gray-500, #6B7280);
-    height: 24px;
+    align-items: center;
+    height: 552px;
    
 }
 
-.formulario{
+.seccionContactar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.contacto{
     display: flex;
     width: 588px;
-    padding: 32px 32px 32px 48px;
+    height: 320px;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.encabezadoSeccionSeis{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+.encabezadoDosSeccionSeis{
+    display: flex;
+    flex-direction: column;
+    gap:24px; 
+}
+
+.tituloSecionSeis{
+    color:  #111827;
+    font-size: 18px;
+    font-weight: 600;
+}
+.formulario{
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    padding: 32px 32px 32px 48px;
+    height: 552px;
+    width: 588px;
     background: var(--white, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    gap: 24px;
 }
 
 form{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
+    justify-content: center;
+    gap: 24px;  
+    width: 470px;
+    height: 488px;
 }
 
 .itemFormulario{
     display: flex;
-    flex-direction: column;
+    height: 34px;
+    padding: 9px 13px;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid#D1D5DB;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
 
-.checkbox{
+.textoContacto{
     display: flex;
     gap: 12px;
+
 }
 
-.submit{
+.textoEmail{
     display: flex;
-    padding: 12px 24px;
-    gap: 8px;
-    border-radius: 4px;
-    background: #2A5B45;
+    gap:12px;
 }
 
-[submit]{
-    background-color: transparent;
+footer{
+background-color: #1F1815;
+/* height: 310px; */
+padding-top: 29px;
+gap: 38px;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.logoFooter{
+    display: flex;
     color: #FFF;
+    gap: 7px;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
 }
