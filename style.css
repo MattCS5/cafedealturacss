@@ -270,15 +270,20 @@ button{
 }
 .preguntasFrecuentes{
     padding: 48px 386px;
-    
+    display: flex;
+    flex-direction: column;
+    gap:16px ;
+    align-items: center;
+  
     
 }
 .preguntasConcretas{
     display: flex;
     flex-direction: column;
+    padding: 24px;
     gap: 16px;
+    width: 668px;
    
-    
 }
 
 .faq{
@@ -300,29 +305,138 @@ button{
     border-radius: 10px;
     background: #FFF; 
 }
-
-
-
-
-/* 
-.preguntasFrecuentes{
-  display: flex;
-  flex-direction: column; 
-  align-items: center; 
-}
-.preguntaPedido{
-    border-radius: 10px;
-    background: #FFF;
-    width: 668px;
-    padding: 24px;
-    gap: 16px;
-    justify-content: center;
-}
-
 .resolverDudas{
     display: flex;
-    padding: 48px 386px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    color: #FFF;
+    justify-content: center;
+}
+
+
+
+.pruebaNuestroCoffee{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     justify-content: center;
-    width: 668px;
-} */
+    padding: 45px 40px;
+    gap:100px;
+    background: #F7F5F3;
+    
+    
+}
+
+.informacionPruebalo{
+    display: flex;
+    flex-direction: column;
+    width: 457px;
+    gap: 16px;
+  
+}
+
+.textoPruebaNuestroCafe{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.fotoCofeeTienda {
+    width: 588px;
+    height: 390px;
+    border-radius: 20px;
+}
+
+.tiendaCafe{
+    border-radius: 20px;
+}
+.textoVerde{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color:  #2A5B45;
+}
+.comoLlegar{
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+.seccionSeis{
+    display: flex;
+    
+    justify-content: center;
+    background:  #E3DED7;
+}
+
+.contacto{
+display: flex;
+gap: 24px;
+
+}
+
+.infoContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 588px;
+    gap: 32px; 
+}
+
+.textoSeccionSeis{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray-500, #6B7280);
+}
+.textoContacto{
+    display: flex;
+    gap: 12px;
+    color: var(--gray-500, #6B7280);
+    height: 24px;
+   
+}
+
+.formulario{
+    display: flex;
+    width: 588px;
+    padding: 32px 32px 32px 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    background: var(--white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    gap: 24px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.itemFormulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox{
+    display: flex;
+    gap: 12px;
+}
+
+.submit{
+    display: flex;
+    padding: 12px 24px;
+    gap: 8px;
+    border-radius: 4px;
+    background: #2A5B45;
+}
+
+[submit]{
+    background-color: transparent;
+    color: #FFF;
+}
