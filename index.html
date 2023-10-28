@@ -235,7 +235,7 @@
 
             <div class="encabezadoSeccionSeis">
                 <div class="tituloSecionSeis">
-                <h3>Entra en contacto con nosotros</h3>
+                <p>Entra en contacto con nosotros<p>
                 </div>
 
                 <div class="textoSeccionSeis">
@@ -251,15 +251,19 @@
                         <p>742 Evergreen Terrace</p>
                         <p>Springfield, OR 12345</p>
                 </div>
+                <div class="contactoEmail">
+                    <div class="textoContacto">
+                        <img src="Phone.png" height="24px" width="24px" >
+                        <p>+1 (555) 123-4567</p>
+                    </div>
 
-                <div class="textoContacto">
-                    <img src="Phone.png" height="24px" width="24px" >
-                    <p>+1 (555) 123-4567</p>
+                    <div class="textoEmail">
+                        <img src="Mail.png" height="24px" width="24px" >
+                        <p>support@example.com</p>
+                    </div>
                 </div>
-
-                <div class="textoEmail">
-                    <img src="Mail.png" height="24px" width="24px" >
-                    <p>support@example.com</p>
+                <div class="buscasTrabajo">
+                    <p>¿Buscas un trabajo? <span class="negritaYsub"> Ver nuestras ofertas.</p></span>
                 </div>
             </div>
             </div>
@@ -267,37 +271,51 @@
             <div class="formulario">
                 <form>
                 <div class="itemFormulario">
-                    <label for="nombre">Nombre Completo:</label><br><br>
-                    <input type="text" id="nombre" name="nombre">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input class="inputBorder" type="text" id="nombre" name="nombre">
+                </div>
+                    
+                <div class="itemFormulario">
+                    <label for="email">Email:</label>
+                    <input class="inputBorder" type="email" id="email" name="email">
                 </div>
                     
                     <div class="itemFormulario">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+
+                        <label for="prefijo">Teléfono</label>
+                        <div class="telefono">
+
+                                <select id="prefijo" name="prefijo">
+                                    <option value="US">US </option>    
+                                    <option value="+ES"> ES </option>
+                                    <option value="FR">FR</option>
+                                    <!-- Agregar más -->
+                                </select>
+
+                                <input type="tel" id="telefono" name="telefono" placeholder="+1 (555) 987-6543">
+                        </div>
+                    </div>
+
+                    <div class="enQuePodemosAyudar">
+
+                        <label for="textarea"><span class="transparente">NODNVJNVD</span></label>
+                        <textarea placeholder="¿En qué podemos ayudarte?" style="height: 122px;"></textarea>
+
                     </div>
                     
-                    <div class="itemFormulario">
-                    <label for="prefijo">Prefijo de País:</label>
-                        <select id="prefijo" name="prefijo">
-                        <option value="+1">+1 (EE. UU.)</option>    
-                        <option value="+44">+44 (Reino Unido)</option>
-                        <option value="+33">+33 (Francia)</option>
-                        <!-- Agregar más -->
-                        </select>
-                        <input type="tel" id="telefono" name="telefono">
-                        </div>
-                        
-                        <textarea id="comentario" name="comentario"  placeholder="¿En qué podemos ayudarte?"></textarea>
-                        
+                  
                         <div class="checkbox">
-                        <input type="checkbox" id="acepto" name="acepto">
-                        <label for="acepto">Acepto la Política de Privacidad y los Términos y Condiciones</label>
-                        </div>
 
+                            <input class="inputBorder" type="checkbox" id="acepto" name="acepto">
+
+                            <label for="acepto"><span class="negritaYsub"> Acepto la Política de Privacidad</span> y los <span class="negritaYsub">Términos y Condiciones</span>
+                            </label>
+                        </div>
+                
                         <div class="submit">
-                        <input type="submit" value="Enviar">
+                            <input type="submit" value="Enviar">
                         </div>
-
+                        
                 </form>
             </div>
         </div>
@@ -305,12 +323,52 @@
 
     <footer>
     <div class="footerContainer">
+
         <div class="logoFooter">
-            <p>cafedealtura</p>
+
+            <p class="fontLo">cafedealtura.com</p>
             <img class="logoCafe" src="ps_coffee-hot.png">
+
+        </div>
+        <div class="teAyudamos">
+            <div class="primeraColumFooter">
+                <div class="infoTelMail">
+                    <p>Te ayudamos en</p>
+                </div>
+                <div class="telFooter">
+                    <img src="PhoneBlanco.png" height="24px" width="24px" >
+                    <p>+34 919 49 05 18</p>
+                </div>
+
+                <div class="mailFooter">
+                    <img src="MailBlanco.png" height="24px" width="24px" >
+                    <p>hola@cafedealtura.com</p>
+                </div>
+
+
+            </div>
+
+            <div class="opcionesFooter">
+                    <p>Tienda</p>
+                    <p>Suscripción</p>
+                    <p>Para empresas</p>
+                    <p>Sobre Nosotros</p>
+                    <p>Contacto</p>
+            </div>
+
+            <div class="politicasFoto">
+                    <p>Política de privacidad</p>
+                    <p>Política de cookies</p>
+                    <p>Términos y condiciones</p>
+            </div>
+
         </div>
     </div>
     </footer>
+
+    <section class="footerBooton">
+        <p>Todos los derechos reservados - Café de Altura SL - 2022</p>
+    </section>
 </div>
 </body>
 
