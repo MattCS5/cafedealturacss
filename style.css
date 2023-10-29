@@ -314,6 +314,7 @@ button{
     text-decoration-line: underline;
     color: #FFF;
     justify-content: center;
+    gap: 16px;
 }
 
 
@@ -365,6 +366,7 @@ button{
     font-size: 14px;
     font-weight: 600;
     text-decoration-line: underline;
+    gap: 16px;
 }
 
 .seccionSeis{
@@ -439,8 +441,11 @@ button{
 
 .negritaYsub{
     font-weight: 600;
-    line-height: 16px;
+    font-size:  14px;
     text-decoration-line: underline;  
+}
+.tamañoNegritaYsub{
+    font-size:  14px;
 }
 
 .textoSeccionSeis {
@@ -457,6 +462,8 @@ button{
     padding: 32px 32px 32px 48px;
     background: var(--white, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 588px;
+    
 }
 
 
@@ -465,13 +472,16 @@ form{
     flex-direction: column;
     gap: 24px;
 }
-
+.terminosYcondiciones{
+    font-size: 14px;
+}
 .itemFormulario{
     display: flex;
     flex-direction: column;
     font-size: 12px;
     font-weight: 400;
     color:#374151;
+    gap: 4px;
 }
 .enQuePodemosAyudar{
     display: flex;
@@ -487,6 +497,7 @@ textarea{
     background: #FFF;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
     width: 100%;
+    height: 122px;
 }
 
 .transparente{
