@@ -2,12 +2,46 @@
     font-family: "Outfit";
     src: url('./Outfit/Outfit-VariableFont_wght.ttf');
 }
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Outfit';
 }
+.tiposCafes{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 24px;
+   padding: 24px;
+   align-items: center; 
+}
+.cafeVenta:hover{
+    border-radius: 8px;
+    border: 1px solid #E3DED7;
+    background: #F7F5F3;
+
+}
+.botonAñadir:hover{
+    border-radius: 4px;
+    background: #2A5B45;
+}
+.tiendaBotton:hover{
+    border-radius: 10px;
+    background: rgba(247, 245, 243, 0.10); 
+}
+
+.aBlanco{
+    color: white;
+    text-decoration: none; /* Para quitar la subrayado por defecto */
+}
+
+a:visited {
+   color: inherit; /* Restablece el color del texto al valor heredado */
+   text-decoration: none; /* Elimina el subrayado por defecto */
+ }
 
 .container{
     display: flex;
@@ -65,65 +99,17 @@ ul{
     border: none;
 }
 
-.contenedorSeccionTres{
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
 }
-.tiposCafes{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   gap: 24px;
-   padding: 24px;
-   align-items: center; 
-}
-.cafeVenta{
-    display: flex;
-    flex-direction: column;
-    padding: 24px;
-    border-radius: 8px;
-    border: 1px solid #E3DED7;
-    gap: 24px;
-    align-items:center;
-    text-align: center;
-}
-.novedadesSeccionTres{
+
+h3{
+    font-size: 18px;
+    font-weight: 600; 
     color: #2A5B45;
-    font-size: 24px;
-    font-weight: 500;
-    text-align: center;
-
-}
-.botonAñadir{
-    padding: 8px;
-    gap: 8px;
-    border-radius: 4px;
-    background: rgba(42, 91, 69, 0.70); 
-}
-
-button{
-    background-color: transparent;
-    border: none;
-    color: #FFF;
-}
-.verTodos{
-   display: flex;
-   justify-content: center;
-   font-size: 14px;
-    font-weight: 600;
-    text-decoration-line: underline;
-}
-.infoCafe{
-    display: flex;
-    flex-direction: column;
-    gap:12px;
-}
-
-.tipografiaCafes{
-    font-size: 14px;
-    font-weight: 600;
-    
 }
 
 .contenedorSeccionDos{
@@ -184,109 +170,216 @@ button{
     text-align: center;
 }
 
-footer{
-    background-color: #1F1815;
-    padding-top: 29px;
-    gap: 38px;
-    padding-bottom: 38px;
-    
-    }
-    
-    .footerContainer{
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    .logoFooter{
-        display: flex;
-        color: #FFF;
-        gap: 7px;
-        font-size: 23px;
-        font-style: normal;
-        font-weight: 400;
-    }
-    
-    .teAyudamos{
-        display: flex;
-        color: white;
-        gap:16px;
-        justify-content:space-between;
-        width: 1132px;
-        height: 152px;
-    }
-    
-    .infoTelMail{
-        display: flex;
-        flex-direction: column;
-        font-size: 18px;
-        font-weight: 600;
-    }
-    
-    .opcionesFooter{
-        display: flex;
-        flex-direction: column; 
-        font-size: 14px;
-        font-weight: 600;
-    }
-    .politicasFoto{
-        display: flex;
-        flex-direction: column;  
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 600;
-    }
-    .telFooter{
-        display: flex;
-        padding: 12px 24px;
-        gap: 8px;
-        border-radius: 4px;
-        background: #515051;
-        width: max-content;
-        font-size: 14px;
-        font-weight: 600;
-    }
-    
-    .mailFooter{
-        display: flex;
-        padding: 12px 24px;
-        gap: 8px;
-        border-radius: 4px; 
-        background: #515051;
-        width: max-content;
-        font-size: 14px;
-        font-weight: 600;
-    }
-    .primeraColumFooter{
-        display: flex;
-        width: 255px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;   
-    }
-    .opcionesFooter{
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        color: white;
-    }
-    
-    .politicasFoto{
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        color: white;
-    }
-    
-    .footerBooton{
+.contenedorSeccionTres{
     display: flex;
-    padding: 12px 380.5px 12px 540.5px;
-    align-items: center;
-    justify-content: center;
-    background: #2B2A2B;
+    flex-direction: column;
+    padding: 40px;
+}
+.tiposCafes{
+   display: flex;
+   justify-content: center;
+   gap: 24px;
+   padding: 24px;
+   align-items: center; 
+}
+.cafeVenta{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid #E3DED7;
+    gap: 24px;
+    align-items:center;
+    text-align: center;
+}
+.cafeVenta:hover{
+    border-radius: 8px;
+    border: 1px solid #E3DED7;
+    background: #F7F5F3;
+
+}
+.botonAñadir:hover{
+    border-radius: 4px;
+    background: #2A5B45;
+}
+.novedadesSeccionTres{
+    color: #2A5B45;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.botonAñadir{
+    padding: 8px;
+    gap: 8px;
+    border-radius: 4px;
+    background: rgba(42, 91, 69, 0.70); 
+}
+
+button{
+    background-color: transparent;
+    border: none;
     color: #FFF;
+}
+.verTodos{
+   display: flex;
+   justify-content: center;
+   font-size: 14px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+.infoCafe{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+.tipografiaCafes{
     font-size: 14px;
     font-weight: 600;
     
-    }
+}
+
+
+
+
+
+
+footer{
+background-color: #1F1815;
+padding-top: 29px;
+gap: 38px;
+padding-bottom: 38px;
+
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.logoFooter{
+    display: flex;
+    color: #FFF;
+    gap: 7px;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.telFooter{
+    align-items: center;
+}
+
+.mailFooter{
+    align-items: center;
+}
+
+.teAyudamos{
+    display: flex;
+    color: white;
+    gap:16px;
+    justify-content:space-between;
+    width: 1132px;
+    height: 152px;
+}
+
+.infoTelMail{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.opcionesFooter{
+    display: flex;
+    flex-direction: column; 
+    font-size: 14px;
+    font-weight: 600;
+}
+.politicasFoto{
+    display: flex;
+    flex-direction: column;  
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+.telFooter{
+    display: flex;
+    padding: 12px 24px;
+    gap: 8px;
+    border-radius: 4px;
+    background: #515051;
+    width: max-content;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mailFooter{
+    display: flex;
+    padding: 12px 24px;
+    gap: 8px;
+    border-radius: 4px; 
+    background: #515051;
+    width: max-content;
+    font-size: 14px;
+    font-weight: 600;
+}
+.primeraColumFooter{
+    display: flex;
+    width: 255px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;   
+}
+.opcionesFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+}
+
+.politicasFoto{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+}
+
+.footerBooton{
+display: flex;
+padding: 12px 380.5px 12px 540.5px;
+align-items: center;
+justify-content: center;
+background: #2B2A2B;
+color: #FFF;
+font-size: 14px;
+font-weight: 600;
+
+}
+
+.tiendaBotton:hover{
+    border-radius: 10px;
+    background: rgba(247, 245, 243, 0.10); 
+}
+
+.aBlanco{
+     color: white;
+     text-decoration: none; /* Para quitar la subrayado por defecto */
+}
+
+a:visited {
+    color: inherit; /* Restablece el color del texto al valor heredado */
+    text-decoration: none; /* Elimina el subrayado por defecto */
+  }
+
+  .botonAgotado{
+    border-radius: 4px;
+    background: var(--Taupe, #E3DED7);
+    display: inline-flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+  }

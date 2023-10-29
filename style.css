@@ -213,6 +213,16 @@ h3{
     align-items:center;
     text-align: center;
 }
+.cafeVenta:hover{
+    border-radius: 8px;
+    border: 1px solid #E3DED7;
+    background: #F7F5F3;
+
+}
+.botonAñadir:hover{
+    border-radius: 4px;
+    background: #2A5B45;
+}
 .novedadesSeccionTres{
     color: #2A5B45;
     font-size: 24px;
@@ -513,6 +523,34 @@ select{
     background: #FFF;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
+.inputBorder:hover{
+    border: 1px solid #9B9EA3;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);   
+}
+
+textarea:hover{
+    border: 1px solid #9B9EA3;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05); 
+}
+
+.telefono:hover{
+    border: 1px solid #9B9EA3;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.itemFormulario:focus{
+    border: 2px solid #3F8F6B;
+    background:#FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05); 
+}
+.inputTel{
+    border: none; 
+    outline: none; 
+    box-shadow: none; 
+    background-color: transparent; 
+}
 input{
     background-color: transparent;
     color: white;
@@ -634,3 +672,26 @@ font-size: 14px;
 font-weight: 600;
 
 }
+
+.telFooter{
+    align-items: center;
+}
+
+.mailFooter{
+    align-items: center;
+}
+
+.tiendaBotton:hover{
+    border-radius: 10px;
+    background: rgba(247, 245, 243, 0.10); 
+}
+
+.aBlanco{
+     color: white;
+     text-decoration: none; /* Para quitar la subrayado por defecto */
+}
+
+a:visited {
+    color: inherit; /* Restablece el color del texto al valor heredado */
+    text-decoration: none; /* Elimina el subrayado por defecto */
+  }
