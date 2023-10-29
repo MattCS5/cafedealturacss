@@ -507,8 +507,13 @@ select{
     border-radius: 6px;
     border: 1px solid #D1D5DB;
     background: #FFF;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-    
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);   
+}
+
+.telefono:focus-within{
+    border: 2px solid #3F8F6B;
+    background:#FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05); 
 }
 .checkbox{
     display: flex;
@@ -535,11 +540,6 @@ textarea:hover{
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05); 
 }
 
-.telefono:hover{
-    border: 1px solid #9B9EA3;
-    background: #FFF;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-}
 .itemFormulario:focus{
     border: 2px solid #3F8F6B;
     background:#FFF;
@@ -553,7 +553,7 @@ textarea:hover{
 }
 input{
     background-color: transparent;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
 
 }
@@ -564,6 +564,10 @@ input{
     gap: 8px; 
     border-radius: 4px;
     background: #2A5B45;
+
+}
+.Enviar{
+    color:white;
 }
 
 footer{
