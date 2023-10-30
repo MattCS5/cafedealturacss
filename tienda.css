@@ -24,10 +24,11 @@
     background: #F7F5F3;
 
 }
-.botonAñadir:hover{
+.cafeVenta:hover .botonAñadir{
     border-radius: 4px;
-    background: #2A5B45;
+    background-color: #2A5B45;
 }
+
 .tiendaBotton:hover{
     border-radius: 10px;
     background: rgba(247, 245, 243, 0.10); 
