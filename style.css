@@ -216,7 +216,7 @@ h3{
 .cafeVenta:hover{
     border-radius: 8px;
     border: 1px solid #E3DED7;
-    background: #F7F5F3;
+    background: yellow;
 
 }
 .cafeVenta:hover .botonAñadir{
@@ -294,6 +294,19 @@ button{
     background: #FFF;
 }
 
+.divider{
+    width: 615px;
+    border: 0.2px solid rgb(232, 231, 231);
+
+}
+
+.flechaDireccion{
+    transform: scaleY(-1);
+}
+
+.hidden {
+    display: none;
+}
 .preguntaPrecios{
     background-color: #FFF;
     border-radius: 10px;
@@ -302,6 +315,7 @@ button{
 .pregunta{
    display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 .preguntaEnvio{
     background-color: #FFF;
@@ -545,13 +559,12 @@ select{
 }
 .inputBorder:hover{
     border: 1px solid #9B9EA3;
-    background: #FFF;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);   
 }
 
 textarea:hover{
     border: 1px solid #9B9EA3;
-    background: #FFF;
+    /* background: #FFF; */
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05); 
 }
 
