@@ -216,7 +216,7 @@ h3{
 .cafeVenta:hover{
     border-radius: 8px;
     border: 1px solid #E3DED7;
-    background: yellow;
+    background: #F7F5F3;
 
 }
 .cafeVenta:hover .botonAñadir{
