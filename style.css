@@ -198,6 +198,7 @@ h3{
 }
 .tiposCafes{
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    gap: 24px;
    padding: 24px;
@@ -243,13 +244,15 @@ button{
     color: #FFF;
 }
 .verTodos{
-   display: flex;
-   justify-content: center;
-   font-size: 14px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
     font-weight: 600;
     text-decoration-line: underline;
     gap: 16px;
+    text-decoration: none; 
 }
+
 .infoCafe{
     display: flex;
     flex-direction: column;
@@ -261,8 +264,6 @@ button{
     font-weight: 600;
     
 }
-
-
 
 .seccionCuatro{
     display: flex;

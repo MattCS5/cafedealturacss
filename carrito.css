@@ -124,7 +124,7 @@ ul{
     display: flex;
     align-items: flex-start;
     gap: 16px;
-    /* justify-content: space-between; */
+   
 }
 .texoProduto{
     color: #000;
@@ -154,9 +154,8 @@ ul{
 
 .infoPorductos{
     display: flex;
+    flex-direction: column;
     gap: 24px;
-    align-items: center;
-    justify-content: space-between;
     padding: 24px 8px 24px 8px;
 
 
@@ -165,7 +164,7 @@ ul{
 
 .contadorProducto{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 
 }
@@ -195,6 +194,7 @@ ul{
     display: flex;
     flex-direction: column;
     width: 384px;
+    height: 330px;
     padding: 24px;
     gap: 16px;
     background-color: #F7F5F3;

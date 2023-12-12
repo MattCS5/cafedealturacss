@@ -374,13 +374,47 @@ font-weight: 600;
 a:visited {
     color: inherit; /* Restablece el color del texto al valor heredado */
     text-decoration: none; /* Elimina el subrayado por defecto */
-  }
+}
 
-  .botonAgotado{
+
+.botonAgotado{
     border-radius: 4px;
     background: var(--Taupe, #E3DED7);
     display: inline-flex;
     padding: 8px;
     align-items: flex-start;
     gap: 8px;
-  }
+}
+
+.agotado {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid #E3DED7;
+    gap: 24px;
+    align-items:center;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.circuloContador{
+    width: 24px;
+    height: 24px;
+    border-radius: 200px;
+    padding: 8px;
+    color: white;
+    background: #515051;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cestaNav{
+    display: flex;
+    gap: 8px;
+}
